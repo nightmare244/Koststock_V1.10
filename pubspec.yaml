@@ -1,0 +1,63 @@
+name: flutter_cobauas
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.4.2 # For SQLite database
+  sqflite_common_ffi: ^2.0.0
+  provider: ^6.1.3
+  google_fonts: ^4.0.0
+  intl: ^0.18.0
+  path: ^1.9.1 # Downgraded to a compatible version
+  flutter_svg: ^1.0.0 # For displaying SVG images
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0 # Lints for good coding practices
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/LogoKostStock.jpg
+    - assets/escream.webp
+    - assets/rotitawar.avif
+    - assets/permen.webp
+    - assets/silverqueen.avif
+    - assets/aqua.jpg
+    - assets/kopi.jpg
+    - assets/susu.jpg
+    - assets/yougurt.jpg
+    - assets/detergen.jpg
+    - assets/soklin.avif
+    - assets/molto.avif
+    - assets/stela.webp
+    - assets/beras.jpg
+    - assets/nugget.jpg
+    - assets/minyak.jpg
+    - assets/telur.jpg
+    - assets/lipstik.jpg
+    - assets/parfum.jpg
+    - assets/pastagigi.jpg
+    - assets/pembalut.jpg
+    - assets/sabunmandi.jpg
+    - assets/sabunmukapria.jpg
+    - assets/shampo.jpg
+    - assets/sunscreen.jpg
+    - assets/soni.png.jpeg
+    - assets/dita.jpeg
+    - assets/ars.png
+    - assets/zaen.jpeg
+    - assets/min.jpeg
+    - assets/fani.jpeg
+    - assets/sapt.jpeg
+    - assets/srul.jpg
+  generate: true
